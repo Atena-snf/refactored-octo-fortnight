@@ -1,0 +1,294 @@
+html {
+    font-size: 100%;
+    font-family: Vazirmatn, sans-serif;
+}
+
+/* body {
+    font-family: Vazirmatn, sans-serif;
+} */
+
+/* #header {
+    height: 20rem;
+    width: 100%;
+    margin: 0;
+    border: solid 0.1rem;
+    box-sizing: border-box;
+    background: rgb(116, 185, 255) no-repeat 0 -1rem/cover border-box;
+}
+
+#nav-top {
+    background-color: rgb(162, 155, 254);
+    width: 100%;
+    height: 2.6rem;
+}
+#nav-top a {
+    display:inline-block;
+    padding: 0.8rem 8.185rem 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-top a:hover {
+    background-color: white;
+    color: rgb(162, 155, 254);
+} */
+
+/* #wel {
+    background: url(./media/header-1.png) no-repeat;
+    height: 800px;
+    filter: drop-shadow(10px -10px 5px rgba(0, 0, 0, .5));
+    width: 50%;
+    margin-top: 50px;
+}
+#wel:hover {
+    filter: none;
+} */
+
+/* .text {
+    margin: 1.2rem;
+    font-size: 1.4rem;
+    text-decoration: solid line-through rgba(207, 126, 176, .3) 1rem;
+} */
+
+/* .style-div {
+    background: rgb(250, 177, 160);
+    padding: 2rem;
+    margin: 0 1.5rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+} */
+
+body {
+    margin-top: 2rem;
+    background: rgba(242, 233, 228, 0.2);
+}
+
+.logo-pic {
+    width: fit-content;
+    height: 6rem;
+}
+
+.buy-basket {
+    width: fit-content;
+    height: 3rem;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+.search-box,
+.logo {
+    float: right;
+}
+
+.buy,
+.profile {
+    float: left;
+}
+
+.form {
+    margin: 2.5rem 0 2rem;
+}
+.nav-top {
+    background: rgba(255, 245, 213, 0.2);
+}
+
+.search {
+    background: rgb(240, 232, 230);
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.24);
+    width: 15rem;
+    height: 2rem;
+    font-family: vazirmatn;
+}
+
+.button {
+    background: rgb(221, 99, 110);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(236, 64, 21);
+    width: 5rem;
+    height: 2.2rem;
+    font-family: vazirmatn;
+}
+
+.button:hover {
+
+    background: rgba(255, 245, 213, 0.1);
+    color: rgb(236, 64, 21);
+}
+
+.profile-b {
+    margin: 2.5rem 0rem 2.5rem 2.5rem;
+    padding: .5rem;
+    border-radius: 10px;
+    border-color: rgb(236, 64, 21);
+    font-family: vazirmatn;
+    background: rgb(221, 99, 110);
+    color: rgb(255, 255, 255);
+}
+
+.profile-b:hover {
+    background: rgba(255, 245, 213, 0.1);
+    color: rgb(236, 64, 21);
+}
+
+.buy {
+    margin: 2.2rem 2.3rem 0rem 2.3rem;
+}
+
+.logo {
+    margin: 1rem 0 0;
+}
+
+.nav {
+    height: 3rem;
+    background: rgba(242, 233, 228, 0.2);
+    margin: 0 0 0rem;
+}
+.nav-li {
+    display:inline-block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav-li-other {
+    float: left;
+}
+
+.nav-li-first {
+    float: right;
+}
+
+.nav-li {
+    background: rgb(149, 181, 166) ;
+
+}
+
+.nav-li a:hover {
+    color: rgb(249, 174, 106);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.header {
+    height: 30rem;
+    /* background: linear-gradient(to left, rgb(242, 233, 228), rgb(250, 231, 221) ) */
+    background: rgb(242, 233, 228) ;
+}
+
+.header-img {
+    height: 30rem;
+    float: right;
+    margin-right: 10rem;
+}
+
+.header-text {
+    float: left;
+    padding: 11rem;
+    margin-left: 30rem;
+    text-align: center;
+}
+
+.header-text h2 {
+    font-size: 3rem;
+    color: rgb(51, 111, 111);
+    text-shadow: 4px 7px 5px rgba(0, 0, 0, 0.26);
+}
+
+.header-text p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: rgb(255, 140, 32);
+}
+
+.book {
+    width: 20rem;
+    height: 35rem;
+    float: right;
+    background-color: rgb(242, 233, 228);
+    margin: 1.85rem;
+    border-radius: 10px;
+}
+
+.bookcover-img {
+    width: 18rem;
+    height: 25rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+
+.price {
+    width: 18rem;
+    height: 3.5rem;
+}
+
+.bookprice {
+    width: 18rem;
+    height: 7rem;
+    padding: 0 1rem 1rem;
+}
+
+
+.basket-img {
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    padding: 0 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.price-img {
+    float: right;
+    padding-top: 0.5rem;
+}
+
+.price-through-line {
+    color: rgb(77, 72, 72);
+    text-decoration: line-through;
+    font-size: small;
+    padding-top: 1rem;
+}
+
+.price-true {
+    color:rgb(221, 99, 110);
+
+}
+
+.bookname:hover {
+    text-decoration: underline;
+
+}
+
+.online-shopping {
+    width: 100%;
+    height: 5rem;
+    background: rgb(149, 181, 166) ;
+    margin: 1rem 0 1rem;
+}
+ .newbooks {
+    margin: 2rem 2rem 0;
+    font-size: x-large;
+ }
+
+ .newbooks:hover {
+    text-decoration: underline;
+ }
+
+ .books {
+    background: rgba(255, 245, 213, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(149, 181, 166);
+    box-sizing: border-box;
+ }
