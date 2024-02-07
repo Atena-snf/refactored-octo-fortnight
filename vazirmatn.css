@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-Thin.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-Thin.ttf) format(TrueType);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-ExtraLight.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-ExtraLight.ttf) format(TrueType);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-Light.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-Light.ttf) format(TrueType);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-Regular.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-Regular.ttf) format(TrueType);
+    font-weight: 400 normal;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-Medium.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-Medium.ttf) format(TrueType);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-SemiBold.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-SemiBold.ttf) format(TrueType);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-Bold.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-Bold.ttf) format(TrueType);
+    font-weight: 700 bold;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-ExtraBold.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-ExtraBold.ttf) format(TrueType);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "vazirmatn";
+    src: url(./vazirmatn/fonts/webfonts/Vazirmatn-Black.woff2) format(woff2),
+         url(./vazirmatn/fonts/ttf/Vazirmatn-Black.ttf) format(TrueType);
+    font-weight: 900;
+}
